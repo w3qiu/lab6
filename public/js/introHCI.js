@@ -28,8 +28,8 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
     
-    var projectURL = $.get("http://localhost:3000/project/" + idNumber, callBackFn);
-    console.log("url " +  projectURL);
+    var purl = $.get("https://lab6dq.herokuapp.com/project/" + idNumber, callBackFn);
+    console.log("url " +  purl);
     
 }
 
